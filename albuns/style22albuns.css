@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fundogatin 30s ease-in-out infinite;
+    background-attachment: fixed;
+}
+
+@keyframes fundogatin { 
+    0% { background-image: url(https://f4.bcbits.com/img/a1639001071_5.jpg);}
+    10% { background-image: url(https://f4.bcbits.com/img/a1639001071_5.jpg);}
+    20% {background-image: url(https://m.media-amazon.com/images/I/91lhcK0RdxL._AC_SL1500_.jpg);}
+    30% {background-image: url(https://m.media-amazon.com/images/I/91lhcK0RdxL._AC_SL1500_.jpg);}
+    40% {background-image: url(https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/430/original/8858.jpg?1389005581);}
+    50% {background-image: url(https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/430/original/8858.jpg?1389005581);}
+    60% {background-image: url(https://media.pitchfork.com/photos/61ae20c045c013baf49b7f74/master/pass/Fleet-Foxes.jpg);}
+    70% {background-image: url(https://media.pitchfork.com/photos/61ae20c045c013baf49b7f74/master/pass/Fleet-Foxes.jpg);}
+    80% {background-image: url(https://static.stereogum.com/uploads/2022/11/fleet-fox-es-a-sky-like-ive-never-seen-1667928474.jpg);}
+    90% {background-image: url(https://static.stereogum.com/uploads/2022/11/fleet-fox-es-a-sky-like-ive-never-seen-1667928474.jpg);}
+    100% {background-image: url(https://f4.bcbits.com/img/a1639001071_5.jpg);}
+  }
+
+
+#tabela {
+    max-width: 90vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#tabela td {
+    max-width: 9.7vw;
+}
+
+@media(max-width:600px) {
+    footer div i {
+        font-size: 3vh;
+        margin-bottom: 2vh;
+        margin-right: 0.2vh;
+        color: white;
+    }
+    footer h3{
+        font-weight: 400;
+        margin-left: 3vh;
+        margin-bottom: 2vh;
+        color: white;
+        font-size: 2vh;
+    }
+}

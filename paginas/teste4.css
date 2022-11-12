@@ -1,0 +1,467 @@
+*{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: rgb(9, 2, 17);
+}
+
+header {
+    height: 7vh;
+    width: 99vw;
+    background-color: rgb(9, 2, 17);
+}
+
+#painel {
+    height: 103vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: fundogatin 30s ease-in-out infinite;
+    display: flex;
+    background-position: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+} 
+
+@keyframes fundogatin { 
+  0% { background-image: url(https://f4.bcbits.com/img/a1639001071_5.jpg);}
+  10% { background-image: url(https://f4.bcbits.com/img/a1639001071_5.jpg);}
+  20% {background-image: url(https://m.media-amazon.com/images/I/91lhcK0RdxL._AC_SL1500_.jpg);}
+  30% {background-image: url(https://m.media-amazon.com/images/I/91lhcK0RdxL._AC_SL1500_.jpg);}
+  40% {background-image: url(https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/430/original/8858.jpg?1389005581);}
+  50% {background-image: url(https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/430/original/8858.jpg?1389005581);}
+  60% {background-image: url(https://media.pitchfork.com/photos/61ae20c045c013baf49b7f74/master/pass/Fleet-Foxes.jpg);}
+  70% {background-image: url(https://media.pitchfork.com/photos/61ae20c045c013baf49b7f74/master/pass/Fleet-Foxes.jpg);}
+  80% {background-image: url(https://static.stereogum.com/uploads/2022/11/fleet-fox-es-a-sky-like-ive-never-seen-1667928474.jpg);}
+  90% {background-image: url(https://static.stereogum.com/uploads/2022/11/fleet-fox-es-a-sky-like-ive-never-seen-1667928474.jpg);}
+  100% {background-image: url(https://f4.bcbits.com/img/a1639001071_5.jpg);}
+}
+
+#roxinho {
+    width: 99vw;
+    height: 15vh;
+    margin-top: -15vh;
+    background-image: linear-gradient(rgb(9, 2, 17, 0), rgb(9, 2, 17));
+}
+
+#cart {
+    font-size: 2vh;
+}
+
+.links {
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+    align-items: center;
+}
+
+#music {
+    color: white;
+}
+
+#academy {
+    color: rgb(84, 34, 148);
+}
+
+.links button{
+    background-color: rgb(107, 45, 189);
+    border: none;
+    color: beige;
+    border-radius: 5px;
+    padding: 1.4vh 2vh;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+header div div button:hover{
+    color:rgb(107, 45, 189);
+    background-color: beige ;
+    transform: scale(0.95);
+}
+
+.text {
+    color: beige;
+    text-align: center;
+    margin-top: -15vh;
+    background-image: linear-gradient(to right, rgb(9, 2, 17, 0) , rgb(9, 2, 17, 0.9), rgb(9, 2, 17, 0));
+    padding: 5vh;
+    border-radius: 3vh;
+    width: 100vw;
+}
+
+.text h1{
+    font-size: 44px;
+    color: beige;
+}
+
+section{
+    max-width: 85vw;
+    margin: 20px auto;
+    color: beige;
+}
+
+.line {
+    height: 0.1vh;
+    width: 100vw;
+    background-color: beige;
+    margin-top: 12vh;
+    margin-bottom: -2vh;
+    margin-left: -8vw;
+}
+
+.sub {
+    margin-bottom: 1vh;
+    color: beige;
+    background-color: rgb(9, 2, 17);
+    padding: 0vh 1vh;
+    margin-bottom: 5vh;
+    width: 20vw;
+    text-align: center;
+}
+
+section main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5vh;
+}
+
+section main img{
+    width: 100%;
+    border-radius: 7px;
+    height: 35vh ;
+    object-fit: cover;
+}
+.albuns{
+    margin-bottom: 2vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.albuns:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 1s;
+    scale: 1.01;
+}
+
+.albuns h3{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: beige;
+}
+
+.albuns p{
+    margin-left: 10px;
+    color: beige;
+}
+
+#parallax {
+    width: 100vw;
+    height: 40vh;
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2018/06/rs-181956-86381813.jpg);
+    margin-left: -8vw;
+    margin-top: 10vh;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 2vh 2vh 4vh 0vh rgba(0, 0, 0, 0.692);
+    background-attachment: fixed;
+}
+
+#fim {
+    width: 99vw;
+    background-color: rgb(107, 45, 189);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10vh;
+    box-shadow: inset 0vh 2vh 4vh 0vh rgba(0, 0, 0, 0.692);
+    text-align: center;
+    padding: 8vh 0vh;
+    min-height: fit-content
+}
+
+#fim div {
+    max-width: 60vw;
+}
+
+#sobre {
+    color: beige;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+footer{
+    max-width: 1200px;
+    display: flex;
+    margin: 100px auto 20px auto;
+    justify-content: space-between;
+}
+
+footer h4{
+    font-weight: 400;
+    color: beige;
+}
+
+footer div i {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+footer div i:hover{
+    color: rgb(107, 45, 189);
+}
+
+.modal {
+    width: 99vw;
+    height: 100vh;
+    background-color: rgb(107, 45, 189, 0.7);;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+
+#submodal {
+    width: 55vw;
+    height: 55vh;
+    border-radius: 4vh;
+    background-color: beige;
+    padding: 8vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.modalimg {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 2vh;
+}
+
+#picname {
+    width: 35vh;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#nomealbum {
+    text-align: center;
+    text-size-adjust: 2vh;
+    color: rgb(107, 45, 189);
+    font-size: 4vh;
+    padding: 3vh;
+}
+
+#infos {
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+}
+
+#musicas {
+    overflow: auto;
+    max-height: 44vh;
+    height: fit-content;
+    max-width: 22vw;
+}
+
+#plataformas {
+    font-size: 6vh;
+    margin-bottom: 2vh;
+}
+
+#plataformas a {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    color: rgb(107, 45, 189);
+}
+
+#plataformas a:hover {
+    color: rgb(49, 13, 97);
+}
+
+#X {
+    color: rgb(107, 45, 189);
+    padding: 0.5vh;
+    font-size: 4vh;
+    font-weight: 900;
+    position: fixed;
+    top: 17vh;
+    left: 77vw;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.mostrar {
+    display: flex;
+}
+
+#submodallogin {
+    width: 30vw;
+    height: 55vh;
+    border-radius: 4vh;
+    background-color: rgb(49, 13, 97);
+    padding: 8vh;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+#loginimg {
+    height: 35vh;
+    width: 35vh;
+}
+
+
+.write {
+    width: 35vh;
+    padding: 1.5vh;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    outline: 0px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+    transition: transform 0.5s; 
+}
+
+.write:focus, .write:hover {
+    transform: scale(1.04);
+    background-color: rgb(244, 227, 255);
+}
+
+#loginbtn2 {
+    width: 38vh;
+    padding: 1.5vh;
+    margin-bottom: 2vh;
+    margin-top: 2.5vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    outline: 0px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(107, 45, 189);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+    transition: transform ease-in-out 0.6s;   
+}
+
+#loginbtn2:hover, #loginbtn2:focus {
+    background-color: rgb(92, 28, 175);
+    transform: scale(1.07);
+}
+
+#sucesso, #erro {
+    text-align: center;
+    color:rgb(107, 45, 189) ;
+    display: none;
+}
+
+.linksmodal {
+    color: beige;
+    font-size: 1.5vh;
+}
+
+.linksmodal button {
+    color: beige;
+    background-color: transparent;
+    border-color: beige;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+}
+
+#X2 {
+    color: rgb(197, 168, 235);
+    padding: 0.5vh;
+    font-size: 4vh;
+    font-weight: 900;
+    position: fixed;
+    top: 17vh;
+    left: 64vw;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 10;
+}
+
+#logintext {
+    font-size: 6vh;
+    color: beige;
+    margin-bottom: 2vh;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.status {
+    color: beige;
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vh;
+    display: none;
+}
+
+@media(max-width:600px) {
+    section main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        }
+    header, section, footer{
+        padding: 5px;
+    }
+    footer div i {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-left: 5px;
+        transition: all 0.5s;
+    }
+}
+
+@media(min-width:600px) and (max-width:900px){
+    section main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        }
+    header, section, footer{
+        padding: 5px;
+    }
+    footer div i {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-left: 5px;
+        transition: all 0.5s;
+    }
+}
